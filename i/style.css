@@ -1,0 +1,129 @@
+.formulario {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+.viaje{
+    text-align: center;
+    color: #0077b6;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.form{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+.label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.imput{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+.enviar{
+    background-color: #0077b6;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.enviar:hover{
+    background-color: #005f86;
+}
+.fondo{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+
+}
+.holajesuita{
+    margin-right: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.form2{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+.borde{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.titulociudad{
+    font-size: 1.2rem;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.select{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+option{
+    background-color: #8a2bf0;
+}
+.selected{
+    background-color: #3d0777;
+    color: #fff;
+}
+.submit{
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.submit:hover{
+    background: #fff;
+    color: #6a11cb;
+}
